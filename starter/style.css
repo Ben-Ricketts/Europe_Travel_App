@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(117, 117, 228);
 }
 
 .logo {
@@ -28,8 +29,9 @@ body {
   width: 100px;
 }
 .colloseum {
+  z-index: -1;
   width: 900px;
-  height: 850px;
+  height: 775px;
 }
 
 .buttons {
@@ -89,7 +91,8 @@ input {
 .button.berlin:hover,
 .button.amsterdam:hover,
 .button.london:hover,
-.button.munich:hover {
+.button.munich:hover,
+#enter:hover {
   /* Hover styles for all buttons */
   background-color: #a7a4d1;
 }
@@ -110,4 +113,33 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#enter {
+  width: 50px;
+  height: 25px;
+  display: flex;
+  position: relative;
+  left: 605px;
+  top: -25px;
+  align-items: center;
+  box-shadow: 0 0 0 3px rgba(26, 18, 185, 0.4);
+  border-radius: 4px;
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12 {
+  position: relative;
+  left: 1200px;
+  top: -550px;
+  color: red;
 }
