@@ -126,22 +126,11 @@ input {
   box-shadow: 0 0 0 3px rgba(26, 18, 185, 0.4);
   border-radius: 4px;
 }
-/* .item1,
-.item2,
-.item3,
-.item4,
-.item5,
-.item6,
-.item7,
-.item8,
-.item9,
-.item10,
-.item11,
-.item12 */
+
 ul {
   position: relative;
-  left: 1200px;
-  top: -550px;
+  left: 1160px;
+  top: -650px;
   color: red;
 }
 li {
@@ -161,4 +150,17 @@ li {
   -o-transition: all 0.5 ease;
   text-align: left;
   margin-left: -250px;
+
+  width: 700px;
+}
+.delete {
+  width: 125px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0 3px rgba(26, 18, 185, 0.4);
+  border-radius: 4px;
+  margin-left: 665px;
+  margin-top: 0px;
+  position: fixed;
 }

@@ -8,6 +8,9 @@ function createListElement() {
   li.appendChild(document.createTextNode(input.value));
   ul.appendChild(li);
   input.value = "";
+
+  //   let deleteButton = document.createElement("button");
+  //   deleteButton.appendChild(document.createTextNode("X"));
 }
 
 enterButton.addEventListener("click", createListElement);
